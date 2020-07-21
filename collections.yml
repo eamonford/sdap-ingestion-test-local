@@ -1,0 +1,13 @@
+collections:
+  - id: AVHRR_OI-NCEI-L4-GLOB-v2.0
+    path: /data/avhrr/*.nc
+    variable: analysed_sst
+    priority: 1
+  - id: AVHRR_OI-NCEI-L4-GLOB-v2.0-anomaly
+    path: /data/avhrr-anomaly/*.nc
+    variable: analysed_sst_ano
+    priority: 5
+  - id: AVHRR_OI-NCEI-L4-GLOB-v2.0-clim
+    path: /data/avhrr_clim/*.nc
+    variable: analysed_sst
+    priority: 5
